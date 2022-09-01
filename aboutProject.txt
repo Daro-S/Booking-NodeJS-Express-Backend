@@ -1,0 +1,9 @@
+initialize Node application =>   npm init -y
+
+express framwork => npm install express
+
+install nodemon => npm install nodemon  : to run the application 
+
+install dotenv => npm install dotenv : to connect to connect to .env file automatically
+
+install mongoose => npm install mongoose : Mongoose is an object document modeling (ODM) layer that sits on top of Node's MongoDB driver. 

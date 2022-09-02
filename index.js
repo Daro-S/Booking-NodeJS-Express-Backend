@@ -7,6 +7,7 @@ import usersRoute from "./routes/users.js"
 import hotelsRoute from "./routes/hotels.js"
 import roomRoute from "./routes/room.js"
 import cookieParser from "cookie-parser"
+import cors from "cors"
 
 
 const app =express()
@@ -31,7 +32,9 @@ mongoose.connection.on("connected", ()=>{
 
 //middlewares
 //to add json 
+app.use(cors())
 app.use(cookieParser())
+
 
 app.use(express.json())
 

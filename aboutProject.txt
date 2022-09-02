@@ -16,4 +16,6 @@ generate secrete code => openssl rand -base64 32
 
 install cookie-parser => npm install cookie-parser : to setting token into cookie
 
+npm install cors => npm install cors : to enable cross-origin resource sharing
+
 ****Noted that some features are from MongoDB

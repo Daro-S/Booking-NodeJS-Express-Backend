@@ -15,3 +15,5 @@ install JWT => npm install jsonwebtoken : a mechanism to verify the owner of som
 generate secrete code => openssl rand -base64 32
 
 install cookie-parser => npm install cookie-parser : to setting token into cookie
+
+****Noted that some features are from MongoDB
